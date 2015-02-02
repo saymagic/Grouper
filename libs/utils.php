@@ -48,7 +48,7 @@ class WX_FUNCTIONS
 
     
     public function getAccessToken(){
-        //更换成自己的APPID和APPSECRET
+        //更换成自己的APPID和APPSECRET, 需在微信公众平台后台的开发者中心界面获取
         $APPID="********";
         $APPSECRET="*******";
 

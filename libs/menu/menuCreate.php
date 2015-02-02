@@ -1,9 +1,8 @@
 <?php
+
 include_once('../utils.php');
-
 header('Content-Type: text/html; charset=UTF-8');
-
-$utils->getAccessToken()=$result->access_token;
+$ACC_TOKEN=$utils->getAccessToken();
 
 $data='{
 		 "button":[
@@ -32,17 +31,12 @@ $data='{
 				{
 				   "type":"view",
 				   "name":"爱情计时",
-				   "url":"http://yangwendi.caoyanming.com"
+				   "url":"http://love.saymagic.cn"
 				},
 				{
 				   "type":"view",
-				   "name":"杨小迪博客",
-				   "url":"http://yangwendi.com"
-				},
-				{
-				   "type":"view",
-				   "name":"曹小明博客",
-				   "url":"http://caoyanming.com"
+				   "name":"博客",
+				   "url":"http://blog.saymagic.cn"
 				}]
 		   }]
        }';
